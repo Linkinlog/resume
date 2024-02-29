@@ -56,6 +56,12 @@ section {
   padding: 1rem;
 }
 
+#skills ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 .date {
   float: right;
 }
