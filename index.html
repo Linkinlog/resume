@@ -1,9 +1,23 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1RK3PDRBTY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1RK3PDRBTY");
+    </script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/webp" href="/assets/PixelMaggieAndMe.webp" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/webp" href="./assets/PixelMaggieAndMe.webp" />
+    <link rel="stylesheet" href="./styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="theme-color"
@@ -13,7 +27,10 @@
     <meta name="description" content="Dahlton Seyler | Software Engineer" />
     <meta property="og:title" content="Dahlton Seyler" />
     <meta property="og:description" content="Software Engineer" />
-    <meta property="og:image" content="/assets/PixelMaggieAndMe.webp" />
+    <meta
+      property="og:image"
+      content="https://resume.dahlton.org/assets/PixelMaggieAndMe.webp"
+    />
     <meta property="og:type" content="website" />
     <title>Dahlton | Software Engineer</title>
   </head>
@@ -26,12 +43,14 @@
           Phone: <a href="tel:724-289-6855">(724) 289-6855</a> | Email:
           <a href="mailto:dahlton@dahlton.org">dahlton@dahlton.org</a>
         </h3>
-        <h3>
-          Portfolio Website:
-          <a href="https://dahlton.org">https://dahlton.org</a> | GitHub:
-          <a href="https://github.com/linkinlog">Linkinlog</a> | LinkedIn:
-          <a href="https://www.linkedin.com/in/dahlton-seyler">LinkedIn</a>
-        </h3>
+        <nav role="navigation">
+          <h3>
+            Portfolio Website:
+            <a href="https://dahlton.org">https://dahlton.org</a> | GitHub:
+            <a href="https://github.com/linkinlog">Linkinlog</a> | LinkedIn:
+            <a href="https://www.linkedin.com/in/dahlton-seyler">LinkedIn</a>
+          </h3>
+        </nav>
       </header>
       <section id="summary">
         <h3>Summary:</h3>
@@ -109,7 +128,7 @@
         <hr />
         <article>
           <h4>
-            Norman Alan <span clas="date">September 2019 – November 2021</span>
+            Norman Alan <span class="date">September 2019 – November 2021</span>
           </h4>
           <p>System Administrator</p>
           <ul>

@@ -33,6 +33,17 @@ main {
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+a {
+  font-weight: 500;
+  color: #c05cff;
+  cursor: pointer;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #bf41bf;
+}
+
 header {
   line-height: 1;
 }
@@ -53,6 +64,7 @@ section {
   body {
     margin: 0;
     font-size: 8.5pt;
+    color: #000;
   }
 
   main {
