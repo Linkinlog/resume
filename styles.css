@@ -56,6 +56,14 @@ section {
   padding: 1rem;
 }
 
+section h4 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
 #skills ul {
   columns: 2;
   -webkit-columns: 2;
