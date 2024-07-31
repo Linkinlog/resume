@@ -67,6 +67,10 @@ section h4 {
   margin-bottom: 0;
 }
 
+section h5 {
+  margin-top: 0;
+}
+
 ul {
   margin-top: 0;
 }
@@ -81,7 +85,7 @@ section p {
   -moz-columns: 2;
 }
 
-.date {
+.right {
   float: right;
 }
 
