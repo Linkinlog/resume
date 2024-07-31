@@ -58,7 +58,17 @@ section {
 }
 
 section h3 {
+  margin-top: 0;
   margin-bottom: 0;
+}
+
+section h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
 }
 
 section p {
@@ -73,6 +83,10 @@ section p {
 
 .date {
   float: right;
+}
+
+.break-after {
+  break-after: page;
 }
 
 @media print {
